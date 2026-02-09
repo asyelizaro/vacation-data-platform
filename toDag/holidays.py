@@ -35,6 +35,7 @@ s3 = boto3.client(
     region_name = "us-east-1"
 )
 
+
 csv_buffer = StringIO()
 df.to_csv(csv_buffer, index=False)
 
