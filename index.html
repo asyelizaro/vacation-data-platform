@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERO | Личное портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <!-- Логотип AERO в стиле Snickers -->
+            <div class="logo">AERO</div>
+        </div>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contact">Как связаться</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <div class="content-placeholder">
+                <!-- Здесь будет информация о вас -->
+                <p>Текст о себе...</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Проекты</h2>
+            <div class="content-placeholder">
+                <!-- Здесь будут ваши проекты -->
+                <p>Список проектов...</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Как связаться</h2>
+            <div class="content-placeholder">
+                <!-- Здесь будут контактные данные -->
+                <p>Email, социальные сети...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> AERO. Все права защищены.</p>
+    </footer>
+
+    <script>
+        // Скрипт для автоматического обновления года в подвале
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
